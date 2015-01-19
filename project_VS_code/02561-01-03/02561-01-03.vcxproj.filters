@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Angel\InitShader.cpp">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Angel\ObjLoader.cpp">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Angel\TextureLoader.cpp">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Perlin\perlin.cpp">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="main-project.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Angel\Angel.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Angel\CheckError.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Angel\mat.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Angel\vec.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Angel\ObjLoader.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Angel\TextureLoader.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Perlin\perlin.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skybox.frag" />
+    <None Include="skybox.vert" />
+    <None Include="sunShader.frag" />
+    <None Include="sunShader.vert" />
+    <None Include="waterShader.frag" />
+    <None Include="waterShader.vert" />
+    <None Include="tableShader.vert" />
+    <None Include="tableShader.frag" />
+    <None Include="landShader.frag" />
+    <None Include="landShader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{7b41dfe1-9565-4663-9d27-cc5fb44a4f3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

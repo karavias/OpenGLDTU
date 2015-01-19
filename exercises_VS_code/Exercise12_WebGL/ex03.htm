@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>02561 E14 - WebGL #3</title>
+
+
+    <script id="vertex-shader" type="x-shader/x-vertex">
+    //TODO: Extend shader to handle per vertex colors and
+    //use the interpolated vertex color in the fragment shader.
+
+    attribute vec4 inPosition;
+    attribute vec3 color;
+    varying vec4 vColor;
+    void main()
+    {
+        vColor = vec4(color, 1);
+        gl_Position = inPosition;
+    }
+    </script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">
+    //TODO: Extend shader to handle per vertex colors and
+    //use the interpolated vertex color in the fragment shader.
+
+    precision mediump float;
+    varying vec4 vColor;
+    void main()
+    {
+        gl_FragColor = vColor;
+    }
+    </script>
+
+
+    <script type="text/javascript" src="angel/webgl-utils.js"></script> <!-- Google WebGL Utils -->
+    <script type="text/javascript" src="angel/initShaders.js"></script> <!-- Angel load shader from script -->
+    <script type="text/javascript" src="angel/MV.js"></script> <!-- Angel matrix library -->
+    <script type="text/javascript" src="ex03.js"></script> <!-- Our code -->
+
+</head>
+<body>
+    <canvas id="gl-canvas" width="500" height="500" style="border:1px solid black">
+    Sorry, your browser doesn't support the HTML5 canvas element
+    </canvas>
+</body>
+</html>

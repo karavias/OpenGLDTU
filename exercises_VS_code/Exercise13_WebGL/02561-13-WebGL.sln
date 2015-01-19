@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Angel", "Angel", "{CDF6394E-F713-4D67-B370-4E933DC7B56A}"
+	ProjectSection(SolutionItems) = preProject
+		angel\initShaders.js = angel\initShaders.js
+		angel\initShaders2.js = angel\initShaders2.js
+		angel\MV.js = angel\MV.js
+		angel\README.txt = angel\README.txt
+		angel\webgl-utils.js = angel\webgl-utils.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{31C8FF2C-196F-4C28-A767-23D3BBD71710}"
+	ProjectSection(SolutionItems) = preProject
+		AstBigSheet.png = AstBigSheet.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{641D3E36-6A81-4CF4-817C-F113F790477C}"
+	ProjectSection(SolutionItems) = preProject
+		Collision.js = Collision.js
+		Entities.js = Entities.js
+		Game.htm = Game.htm
+		Game.js = Game.js
+		ParticleSystem.js = ParticleSystem.js
+		Starfield.js = Starfield.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
